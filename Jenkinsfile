@@ -6,7 +6,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Pull the latest code from the GitHub repository
-                git branch: 'main', url: 'https://github.com/Vibha1419/jenkinesrepo.git'
+                git branch: 'main', url: 'https://github.com/Vibha1419/demojenkinsrepo.git'
             }
         }
         
